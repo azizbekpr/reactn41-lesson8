@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #0F0F0F;
+}
+
+.container {
+    /* 1920px-910px=1110px */
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0F0F0F;
+}
+
+
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.nav-list {
+    height: 100%;
+    display: flex;
+    column-gap: 32px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    border-top: 3px solid transparent;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    font-family: Post No Bills Jaffna;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    justify-content: 467px;
+    align-items: center;
+    height: 80px;
+}
+
+.img {
+    padding: 50px;
+    background-image: url(./images/first.img);
+    width: 1520px;
+    height: 600px;
+}
+
+/* .article{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+} */
+text {
+    display: flex;
+
+
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 93px;
+
+}
+
+/* . jeans 
+{
+    background-image: url(./images/third.img) ;
+    
+    background-size: cover;
+    
+    padding: 50px;
+
+    width: 960px;
+    height: 730px;
+} */
+.hamburger {
+    justify-content: wrap;
+    box-sizing: border-box;
+    /* padding: 198px 214px; */
+    margin-top: 210px;
+    background: #191B1C;
+    width: 198.462px;
+    height: 214px;
+}
